@@ -1,0 +1,136 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+  width: 7px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(8, 111, 245);
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 10%;
+}
+
+.navbar ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  gap: 40px;
+  margin-right: 1em;
+}
+.navbar ul a {
+  padding: 15px 40px;
+  background-color: rgb(8, 111, 245);
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-size: 1.2em;
+  border-radius: 12px;
+}
+
+.main {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 2em;
+}
+.main .title {
+  width: 80%;
+  line-height: 1.5em;
+  font-size: 2em;
+}
+.main .title span {
+  color: rgb(8, 111, 245);
+}
+.main .mains {
+  width: 80%;
+  line-height: 1.4em;
+  margin-top: 2em;
+}
+.main .booksShowCase {
+  max-width: 80%;
+}
+.main .booksShowCase img {
+  max-width: 100%;
+  height: 500px;
+}
+.main .booksShowCase .bookcat {
+  margin-top: 3em;
+}
+.main .booksShowCase .bookcat h1 {
+  border-bottom: 3px solid rgb(8, 111, 245);
+  border-bottom-right-radius: 30px;
+}
+
+.container {
+margin-top:3em;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.container a {
+  align-self: flex-start;
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  transition: all 0.5s ease-in;
+  margin-left: 3em;
+}
+a:hover {
+  color: purple;
+  text-decoration: underline;
+}
+
+#bbb {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.book {
+  width: 40%;
+  text-align: center;
+  height: 300px;
+  line-height: 1.5em;
+  margin-top: 2em;
+  border: 1px solid gray;
+  border-radius: 10px;
+  margin-bottom: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  transition: all 1s ease-in;
+}
+.book:hover {
+  color: rgb(8, 111, 245);
+  border-color: rgb(8, 111, 245);
+}
+
+
+a {
+  text-decoration: none;
+}/*# sourceMappingURL=styles.css.map */
